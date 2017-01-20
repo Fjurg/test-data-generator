@@ -47,10 +47,8 @@ class TestDataGenerator
 		if @is_valid_format
 			puts 'SUCCESS!'
 			puts "File created in folder: #{Dir.pwd}"
-			sleep some
 		else
 			puts 'Something went wrong'
-			sleep some
 		end
 	end
 	
